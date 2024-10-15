@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color:#92bec1;
+    color: #fff;
+    padding: 13px;
+    font-size: 55px;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: whitesmoke;
+    background-color:#92bec1;
+    
+  }
+  
+  body {
+    background-color: white;
+}
+
+
+
+h1 {
+    font-size: 2em;
+    color: white;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hospital-img img {
+    width: 300px;
+}
+
+.search-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-box button[type="submit"] {
+    padding: 10px;
+    border: none;
+    background-color: rgb(22, 206, 12);
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.search-box:hover{
+    background: linear-gradient(#454545);
+    text-decoration: none;
+    color: #fff;
+}
+
+button[type="submit"]:hover 
+{
+  background-color: #45a049;
+}
+
+.info-box {
+    margin-top: 30px;
+    border: 2px solid #ccc;
+    padding: 70px;
+    width: 60%;
+    margin: 30px auto;
+    text-align: left;
+}
+
+
+  

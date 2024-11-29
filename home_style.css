@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color:#92bec1;
+  color: #fff;
+  padding: 13px;
+  font-size: 55px;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-align: center;
+  text-decoration: whitesmoke;
+  background-color:#92bec1;
+  
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1px;
+}
+
+.name:hover{
+  transform: scale(1.2);
+    transition: 2s ease-in-out;
+    color: #fff;
+}
+
+
+/* intro  */
+
+.intro-part{
+  display: flex;  
+  justify-content: space-evenly;
+}
+/* intro-header styles */
+.header-of-intro {
+  padding-top: 30px;
+  padding-left: 20px;
+  width: 500px;
+  color: rgb(56, 56, 56);
+}
+.header-of-intro h1{
+font-size: 45px;
+
+}
+
+.contract_home {
+text-decoration: none;
+color: white;
+background-color: rgb(54, 121, 162);
+border-radius: 5px;
+padding-left: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 10px;
+font-size: 20px;
+}
+/* image styles */
+.img-part{
+  padding-top: 1px;
+  padding-left: 1px;   
+}
+.img-part img{
+  width: 300px;
+  height: 300px;
+}
+/* animation part.. */
+.button:hover{
+  background: linear-gradient( rgb(35, 134, 196), #454545);
+  text-decoration: none;
+  color: #fff;
+}
+.contract_home:hover{
+  background: linear-gradient( rgb(186, 29, 74), rgb(241, 112, 112));
+  color: white;
+  border-radius: 5px;
+}
+.img-part:hover{
+  transform: scale(1.2);
+  transition: 2s ease-in-out;
+}
+/* ---------template-------- */
+
+.container {
+display: flex;
+justify-content: center;
+padding-top: 20px;
+}
+
+.card {
+width: 300px;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-shadow: #454545;
+}
+.card_log {
+width: 30%;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-shadow: #1e1d1d;
+
+}
+
+h2 {
+text-align: center;
+}
+
+.form-group {
+margin-bottom: 10px;
+}
+
+label {
+display: block;
+font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] 
+{
+width: 100%;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button[type="submit"] {
+width: 100%;
+padding: 10px;
+background-color: #4CAF50;
+color: #fff;
+border: 4px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button[type="submit"]:hover 
+{
+background-color: #45a049;
+}
